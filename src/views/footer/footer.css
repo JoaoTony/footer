@@ -1,0 +1,97 @@
+.container {
+  width: 100%;
+  min-height: 500px;
+  background: #57AFD6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cardsWrapper {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.cardWrapper {
+  width: 370px;
+}
+
+.cardWrapper .title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footerOfFooter {
+  background: #4489A9;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.copyrigth {
+  color: #92B9CB;
+  font-size: 1.3rem;
+}
+
+.termsAndPol {
+  border: none;
+  background: transparent;
+  color: #92B9CB;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cardWrapper .sub-title {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.cardWrapper .simple-text {
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.card-with-border-wrapper {
+  width: 100%;
+  background: yellow;
+}
+
+.cardWrapper .card-with-border {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 0.9rem;
+  display: inline-block;
+  float: left;
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.maptss-siac-logo {
+  width: 100%;
+  height: 40px;
+  background: #92B9CB;
+  margin-top: 20px;
+}
